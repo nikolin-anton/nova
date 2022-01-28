@@ -7,3 +7,13 @@ document.addEventListener('DOMContentLoaded', function () {
       swipe: true,
     });
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // инициализация слайдера
+    new SimpleAdaptiveSlider('.slider_job', {
+      loop: false,
+      autoplay: false,
+      interval: 5000,
+      swipe: true,
+    });
+  });
